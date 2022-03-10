@@ -1,0 +1,120 @@
+@import 'macros.scss';
+@import 'cdn.scss';
+@import 'header.scss';
+@import 'firstscreen.scss';
+@import 'features.scss';
+@import 'works.scss';
+@import 'team.scss';
+@import 'testimonials.scss';
+@import 'download.scss';
+@import 'footer.scss';
+@import 'adaptive.scss';
+
+html {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+
+  @media (max-width: 1200px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 992px) {
+    font-size: 16px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 14px;
+  }
+  @media (max-width: 320px) {
+    font-size: 14px;
+  }
+}
+
+* {
+  padding: 0px;
+  margin: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 -15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Button
+
+.button {
+  border: 0;
+  display: block;
+  margin: auto;
+  width: 370px;
+  font-size: $_24px;
+  padding: 24px 0;
+  font-weight: 900;
+  color: #f5f3f3;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: $red;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $deep_red;
+  }
+
+  &:active {
+    box-shadow: 0px 0px 20px rgba(126, 3, 3, 0.7);
+    background-color: $red;
+  }
+
+  @media (max-width: 430px) {
+    width: 300px;
+  }
+
+  @media (max-width: 320px) {
+    width: 280px;
+  }
+}
+
+//  Social
+
+.social {
+  display: flex;
+  flex-direction: row;
+
+  .social-facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #b4b4b4;
+    color: #b4b4b4;
+    margin-right: 6px;
+  }
+
+  .social-twittwer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #b4b4b4;
+    color: #b4b4b4;
+    margin-right: 6px;
+  }
+
+  .social-linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #b4b4b4;
+    color: #b4b4b4;
+  }
+}

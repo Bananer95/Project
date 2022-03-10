@@ -1,0 +1,46 @@
+.team {
+  padding: 114px 0;
+
+  .ourTeam {
+    display: flex;
+    flex-wrap: wrap;
+
+    .ourTteam_item {
+      padding: 0 15px;
+      max-width: 25%;
+
+      .ourTeam_item_photo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 30px;
+        overflow: hidden;
+      }
+
+      .ourTeam_item_name h4 {
+        font-size: $_24px;
+        font-weight: 600;
+        color: $black;
+        text-align-last: left;
+        margin-bottom: 6px;
+      }
+
+      .ourTeam_item_profesion {
+        font-size: $_18px;
+        font-weight: 400;
+        color: $red;
+        text-transform: uppercase;
+        text-align-last: left;
+        margin-bottom: 18px;
+      }
+
+      .ourTeam_item_text {
+        font-size: $_18px;
+        font-weight: 400;
+        color: $grey;
+        text-align-last: left;
+        margin-bottom: 38px;
+      }
+    }
+  }
+}

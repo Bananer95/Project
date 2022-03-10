@@ -1,0 +1,28 @@
+.download {
+  padding-bottom: 114px;
+
+  .download_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
+
+    .download_content_title {
+      font-size: $_30px;
+      font-weight: 500;
+      text-align: center;
+      color: $black;
+      text-transform: capitalize;
+      margin-bottom: 26px;
+    }
+
+    .download_content_text {
+      font-size: $_18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+      color: $black;
+      margin-bottom: 47px;
+    }
+  }
+}
