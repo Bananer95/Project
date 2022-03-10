@@ -3,11 +3,16 @@
 
   .ourTeam {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
+    margin: 0 -15px;
 
     .ourTteam_item {
+      display: flex;
+      flex-direction: column;
       padding: 0 15px;
       max-width: 25%;
+      align-items: stretch;
 
       .ourTeam_item_photo {
         display: flex;
@@ -40,6 +45,7 @@
         color: $grey;
         text-align-last: left;
         margin-bottom: 38px;
+        flex-grow: 1;
       }
     }
   }

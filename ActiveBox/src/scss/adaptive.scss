@@ -110,6 +110,12 @@
     }
   }
 
+  .team {
+    .ourTeam {
+      flex-wrap: wrap;
+    }
+  }
+
   .testimonials {
     .slick-slider {
       .slick-arrow {
@@ -133,6 +139,40 @@
   .testimonials_item {
     .review {
       padding: 58px 60px 58px 60px;
+    }
+  }
+}
+
+// Adaptive 840 px
+@media (max-width: 840px) {
+  .team {
+    .ourTeam {
+      .ourTteam_item {
+        .social {
+          .social-facebook {
+            font-size: 25px;
+            width: 40px;
+            height: 40px;
+          }
+
+          .social-twittwer {
+            font-size: 25px;
+            width: 40px;
+            height: 40px;
+          }
+
+          .social-linkedin {
+            font-size: 25px;
+            width: 40px;
+            height: 40px;
+          }
+        }
+        max-width: 50%;
+        margin-bottom: 20px;
+        .ourTeam_item_text {
+          margin-bottom: 20px;
+        }
+      }
     }
   }
 }
@@ -183,7 +223,7 @@
 
           .show {
             display: flex;
-            min-height: 100vw;
+            height: 50vh;
           }
         }
       }
@@ -359,6 +399,8 @@
         .card_row_items {
           width: 80%;
           margin-bottom: 30px;
+          margin-left: auto;
+          margin-right: auto;
         }
       }
     }
